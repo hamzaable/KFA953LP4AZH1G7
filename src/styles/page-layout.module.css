@@ -1,0 +1,28 @@
+.header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    margin-bottom: 10px;
+
+}
+.logo{
+    max-width:200px;
+    object-fit: cover;
+    margin-right: 50px;
+    margin-top: 5px; /* It is because logo has a little padding at bottom in image */
+}
+.pageWidth {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    /* min-height: calc(100vh-50px); */
+    border-radius:10px;
+   
+}
+.container{
+    padding: 20px;
+}

@@ -1,0 +1,34 @@
+.filterMain{
+    position: relative;
+    padding: 15px 5px 10px 5px;
+    border-radius: 10px;
+  background-color: rgb(242, 246, 248);
+  border: 1px solid #d9d9d9;
+  margin-top: 20px;
+}
+.filterMain::after{
+    content: 'Filters';
+    position: absolute;
+    top: -12px;
+    left:10px;
+    background: white;
+    border-radius: 6px;
+    padding: 0px 30px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+.filterOptions{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.inputText{
+    width: 250px;
+    margin-right: 10px;
+}
+.align{
+    align-items: center;
+}
